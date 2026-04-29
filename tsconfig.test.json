@@ -3,5 +3,10 @@
   "compilerOptions": {
     "noUnusedLocals": false,
     "noUnusedParameters": false
-  }
+  },
+  "include": [
+    "tests/**/*.ts",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ]
 }
